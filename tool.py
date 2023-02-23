@@ -7,9 +7,13 @@ app = Flask(__name__)
 # Your Airtable API key and base ID
 AIRTABLE_API_KEY = 'patwLoFtU6uCVQLbr.f21c5c8ee50b4462d3546257f605e31d0f81abab9420a7e15a9f1129f257b38e'
 AIRTABLE_BASE_ID = 'appS6ep3oZKd27r1U'
+AIRTABLE_TABLE_NAME = 'Dictionary'
+
 
 # Create an Airtable object to interact with your base
-airtable = Airtable(AIRTABLE_BASE_ID, 'WordList', api_key=AIRTABLE_API_KEY)
+airtable = Airtable(AIRTABLE_BASE_ID, AIRTABLE_TABLE_NAME, api_key=AIRTABLE_API_KEY)
+
+
 
 # Your homepage route
 @app.route('/')
@@ -42,7 +46,7 @@ def check_text():
         suggestions = []
         for word in offensive_words:
             record = airtable.search('Word', word)[0]
-            suggestions.append(record['fields'].get('Suggestion', ''))
+            suggestions.append(record['fields'].get('Alt word', ''))
         response = {
             'status': 'warning',
             'message': 'Your text contains offensive words. Here are some suggestions:',

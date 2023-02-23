@@ -1,0 +1,454 @@
+Dictionary-Grid view
+Word,Alt word,Context ,Tone,Definition
+A benefit recipient,"""Scrounger""",Class,Postive,
+A black person,"""Darky""  ""Darkey""  ""Darkie""  ""Nigger""  ""Niger""  ""Nig""  ""Nigor""  ""Nigra""  ""Nigre""  ""Nigar""  ""Niggur""  ""Nigga""  ""Niggah""  ""Niggar""  ""Nigguh""  ""Niggress""  ""Nigette""  ""Negro""  ""Neger""",Race,Postive,
+A gay Asian person,"""Gaysian""","LGBTQ+,Race",Postive,
+A person from the north,"""Northern Monkey""",Culture,Postive,
+A person from the south,"""Southern""  ""Southern Fairy""",Culture,Postive,
+A young person,"""Youngster""",Age,Postive,
+Ableism,,Ableism,Neutral,Discrimination in favour of people without a disability.
+Ableist ,,Ableism,Neutral,"Adjective: characterized by or showing prejudice, stereotyping, or discrimination of people with a disability/disabilities. Noun: a person with ableist veiws."
+Absurd,"""Crazy""",Mental Health,Postive,
+Actor,"""Actress""",Sex,Postive,
+Actress,"""Actor""",Sex,Negative,"A woman whose profession is acting on stage, in films, or on television."
+Aged,"""Older""  ""Older""  ""Older adult""",Age,Negative,Having lived or existed for a long time; very old.
+Ageism,,Age,Neutral,Prejudice or discrimination on the grounds of a person's age.
+Ageist,,Age,Neutral,Adjective: characterized by or showing prejudice or discrimination on the grounds of a person's age. Noun: a person with ageist views.
+Agitated,"""Uppity""",Race,Postive,
+American Indian," ""Native""  ""whenever possible Native people prefer to be called by their specific tribal name""","Culture,Race",Negative,"A member of any of the indigenous peoples of North, Central, and South America, especially those indigenous to what is now the continental US."
+Amok,"""Disrupting""  ""Behaving""  ""Behaving disruptively""","Culture,Mental Health",Negative,Behave uncontrollably and disruptively.
+Amount of people,"""Manpower""",Sex,Postive,
+An Irish traveller,"""Knacker""  ""Pikey""  ""Piky""  ""Piker""",Culture,Postive,
+Anal assassin ,"""Gay man""",LGBTQ+,Negative,A derogatory term primarily against gay men.
+Anal astronaut,"""Gay man""",LGBTQ+,Negative,A derogatory term primarily against gay men.
+Androgynous,"""Hermie""",LGBTQ+,Postive,
+Androgynous person,"""Hermie""",LGBTQ+,Postive,
+Argentine,"""Argie""","Culture,Race",Postive,
+Argentinean,"""Argie""","Culture,Race",Postive,
+Argentinian,"""Argie""","Culture,Race",Postive,
+Argie,"""Argentine""  ""Argentinean""  ""Argentinian""","Culture,Race",Negative,A term used to refer to an Argentine. Extensively used by the British soldiers during the Falklands War in 1982.
+Arse bandit ,"""Gay man""",LGBTQ+,Negative,A derogatory term primarily against gay men.
+Artificial ,"""Man made""",Sex,Postive,
+Asian people,"""The Asians""",Race,Postive,
+Ass bandit,"""Gay man""",LGBTQ+,Negative,A derogatory term primarily against gay men.
+Average person,"""The common man""",Sex,Postive,
+BAME,"""Use a specific race""",Race,Negative,"Stands for black, Asian and minority ethnic and black and minority ethnic."
+Bathroom,"""Ladies room""",Sex,Postive,
+Be a man,"""Be""  ""Be authorative""",Sex,Negative,"An imperative to act like a man or as a man should, stereotypically meaning to be strong, unemotional, strong"" authoritative, or stoical, or to take responsibility for one's actions, words, or beliefs."
+Be authorative,"""Be a man""",Sex,Postive,
+Be brave,"""Man""  ""Be a man""",Sex,Postive,
+Be specific about who you're talking about ,"""Minority""","Culture,Race",Postive,
+Bean flicker,"""Lesbian""",LGBTQ+,Negative,"A derogatory term for lesbians, likening the clitoris to a bean."
+Become a master,"""Become""  ""proficient""","Race,Sex",Negative,To have become proficient or expert in something.
+Become an expert,"""Become""  ""Mastered""","Race,Sex",Postive,
+Becoming an expert,"""Mastering""","Race,Sex",Postive,
+Becoming proficient,"""Mastering""","Race,Sex",Postive,
+Behaving badly," ""Run""  ""Running""  ""Amok""",Race,Postive,
+Behaving disruptively ,"""Running""  ""Run""  ""Amok""",Race,Postive,
+Bender," ""Homosexual""  ""Queer""  ""Queer""  ""Homosexual""",LGBTQ+,Negative,Derogatory term towards a homosexual person.
+Bent ,"""Homosexual""  ""Queer""  ""Queer""  ""Homosexual""",LGBTQ+,Negative,Derogatory term towards a homosexual person.
+Bentshot ,"""Homosexual""  ""Queer""  ""Queer""  ""Homosexual""",LGBTQ+,Negative,Derogatory term towards a homosexual person.
+Betrayed,"""Sold down the river""",Race,Postive,
+Bhttps://en.wikipedia.org/wiki/Batty_boy,"""Gay man""",LGBTQ+,Negative,A slur for gay or effeminate men.
+Bible basher ,"""Christian""",Religion,Negative,"A dysphemism for people who believe in the fundamentalist authority of the Bible, particularly those from a Pentecostal or fundamentalist denomination. It is also a slang term for an evangelising Christian. Commonly used universally against Christians who are perceived to go out of their way to energetically preach their faith to others."
+Bible beater,"""Christian""",Religion,Negative,"A dysphemism for people who believe in the fundamentalist authority of the Bible, particularly those from a Pentecostal or fundamentalist denomination. It is also a slang term for an evangelising Christian. Commonly used universally against Christians who are perceived to go out of their way to energetically preach their faith to others."
+Bindi,"""Dothead""",Religion,Postive,
+Biphobia,,LGBTQ+,Neutral,Dislike of or prejudice against bisexual people.
+Biphobic,,LGBTQ+,Neutral,Having or showing a dislike of or prejudice against bisexual people.
+Black Book,,Race,Negative,"A book containing a list of secret contacts, or of the names of people liable to be punished."
+Black economy ,"""Underground economy""",Race,Negative,"The black economy refers to people who operate entirely outside the tax and regulatory system or who are known to the authorities but do not correctly report their tax obligations
+."
+Black list,"""Denylist""  ""Blocklist""",Race,Negative,A list of people or things that are regarded as unacceptable or untrustworthy and should be excluded or avoided. 
+Black Market,"""Contraband""  ""Illicit""  ""Pirated""  ""Unlawful""  ""Unofficial""  ""Unsanctioned""  ""Unauthorised""",Race,Negative,An illegal traffic or trade in officially controlled or scarce commodities.
+Black people,"""Nigger""  ""Niger""  ""Nig""  ""Nigor""  ""Nigra""  ""Nigre""  ""Nigar""  ""Niggur""  ""Nigga""  ""Niggah""  ""Niggar""  ""Nigguh""  ""Niggress""  ""Nigette""  ""Negro""  ""Neger""  ""The blacks""",Race,Postive,
+Black sheep,"""Outcast""  ""Scapegrace""",Race,Negative,A member of a family or group who is regarded as a disgrace to it.
+Blacklist,"""Denylist""  ""Blocklist""",Race,Negative,A list of people or things that are regarded as unacceptable or untrustworthy and should be excluded or avoided. 
+Blackmail,"""Extortion""",Race,Negative,"Noun = the action, treated as a criminal offence, of demanding payment or another benefit from someone in return for not revealing compromising or damaging information about them. Verb =demand money or another benefit from (someone) in return for not revealing compromising or damaging information about them."
+Blocklist,"""Black""  ""Blacklist""",Race,Postive,
+BME,"""Use a specific race""",Race,Negative,"Stands for black, Asian and minority ethnic and black and minority ethnic."
+Boer hater,,"Culture,Race",Negative,"Refers to a person who hates, prejudices, or criticizes the Boers, or Afrikaners  – historically applied to British people who held anti Boers sentiments."
+Boer hater,,"Culture,Race",Negative,"Refers to a person who hates, prejudices, or criticizes the Boers, or Afrikaners  – historically applied to British people who held anti Boers sentiments."
+Boerehater ,,"Culture,Race",Negative,"Refers to a person who hates, prejudices, or criticizes the Boers, or Afrikaners  – historically applied to British people who held anti Boers sentiments."
+Bog / Bogtrotter / Bog trotter,"""Irish Person""",Culture,Negative,"A person of common or low class Irish ancestry. A very derogatory
+ word for an Irishman."
+Bog trotter,"""Irish Person""",Culture,Negative,"A person of common or low class Irish ancestry. A very derogatory
+ word for an Irishman."
+Bogeyman,,Sex,Negative,"An imaginary evil spirit or being, used to frighten children. A person or thing that is widely regarded as an object of fear."
+Bogtrotter ," ""Irish Person""",Culture,Negative,"A person of common or low class Irish ancestry. A very derogatory
+ word for an Irishman."
+Bonkers ,"""Someone""  ""Ridiculous""  ""Wild""",Mental Health,Negative,Slang for someone who has mental health problems.
+Boogeyman,,Sex,Negative,"An imaginary evil spirit or being, used to frighten children. A person or thing that is widely regarded as an object of fear."
+Boomer,,Age,Context,"A person born in the years following the Second World War, when there was a temporary marked increase in the birth rate."
+Boring,"""Lame""",Ableism,Postive,
+Bounty,,Race,Context,"A racially Black person who is considered to be behaving like a white person (i.e. dark on the outside, white on the inside)."
+Bounty Bar ,,Race,Context,"A racially Black person who is considered to be behaving like a white person (i.e. dark on the outside, white on the inside)."
+Businessman,"""Businessperson""",Sex,Negative,"A man who works in commerce, especially at executive level."
+Businessmen,"""Businesspeople""",Sex,Negative,"Men who works in commerce, especially at executive level."
+Businesspeople,"""Businessmen""",Sex,Postive,
+Businessperson,"""Businessman""",Sex,Postive,
+Cabin attendant,"""Stewardess""  ""Steward""",Sex,Postive,
+Cabin attendants,"""Stewardesses""",Sex,Postive,
+Carpet muncher,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Catholic,"""Left""  ""Mick""",Religion,Postive,
+Chair,"""Chairman""",Sex,Postive,
+Chairman,"""Chair""  ""Chairperson""  ""Coordinator""  ""Head""",Sex,Negative,A person chosen to preside over a meeting.
+Chairperson,"""Chairman""",Sex,Postive,
+Chav,,Class,Negative,A stereotype. A young person in Britain of a type stereotypically known for engaging in aggressively loutish behavior especially when in groups and for wearing flashy jewelry and athletic casual clothing (such as tracksuits and baseball caps).
+"Chavvy
+",,Class,Negative,A stereotype. A young person in Britain of a type stereotypically known for engaging in aggressively loutish behavior especially when in groups and for wearing flashy jewelry and athletic casual clothing (such as tracksuits and baseball caps).
+Cheat,"""Gyp""  ""Gypped""",Race,Postive,
+Chi chi man,"""Gay man""",LGBTQ+,Negative,"""chi chi"" is patois for termite (pest) and is a derogatory term for a homo sexual. i.e. a gay person is as low as a termite"
+Chinese meal,"""Chink""  ""Chinky""",Race,Postive,
+Chinese Person,"""Chink""  ""Chinky""",Race,Postive,
+Ching Chong,,Race,Negative,Mocking the language of a person of perceived Chinese descent.
+Chink,"""Chinese""  ""Chinese meal""",Race,Negative,A Chinese person or a Chinese restaurant or a Chinese meal.
+Chinky,"""Chinese""  ""Chinese Person""",Race,Negative,A Chinese person or a Chinese restaurant or a Chinese meal.
+Chonky,,Race,Negative,"Refers to a person of Asian heritage with ""white attributes"", in either personality or appearance."
+Christian,"""Bible""  ""Bible""  ""Prod""  ""Proddywhoddy""  ""Proddywoddy""",Religion,Postive,
+Coconut,,Race,Context,A person of Hispanic/Latino or South/Southeast Asian descent who is seen as being assimilated into white American culture. It derives from the fact that a coconut is brown on the outside and white on the inside. 
+Coloured ,"""Use a specific race""",Race,Negative,Coloured is a racial descriptor historically used in the United States (during the Jim Crow Era) to refer to an African American.
+Congressional representative ,"""Congressman""",Sex,Postive,
+Congressman,"""Legislator""  ""Congressional representative""",Sex,Negative,"A member of Congress, especially a member of the US House of Representatives."
+Contraband,"""Black Market""",Race,Postive,
+Coordinator,"""Chairman""",Sex,Postive,
+Cougar,"""Older""  ""Older""  ""Older people""","Age,Sex",Negative,An older woman seeking a sexual relationship with a younger man. (Or a large American wild cat.)
+Crazy,"""Ridiculous""  ""Ridiculously""  ""Someone""  ""Absurd""  ""Silly""  ""Wild""  ""Unbelievable""",Mental Health,Negative,"Adjective: mentally ill, especially as manifested in wild or aggressive behaviour. Or extremely enthusiastic. Noun: a mentally ill person. Adverb: extremely."
+Crip,"""Person""  ""Has a disability""",Ableism,Negative,"Short for crippled. As a noun, an individual having a physical disability and especially a physically impaired leg or foot. As an adjective, being a cripple"
+Crippled,"""Person""  ""Has a disability""",Ableism,Negative,"As a noun, an individual having a physical disability and especially a physically impaired leg or foot. As an adjective, being a cripple.
+"
+Crone,,"Age,Sex",Negative,An ugly old woman. It has become a sexist insult degrading women.
+Cuntboy,"""Transgender man""",LGBTQ+,Negative,"A female"" respectively, who has not had genital surgery."
+Darkey,"""A black person""",Race,Negative,Derogatory term for a black person.
+Darkie,"""A black person""",Race,Negative,Derogatory term for a black person.
+Darky ,"""A black person""",Race,Negative,Derogatory term for a black person.
+Dear sir or madam,"""To Whom it May Concern""",Sex,Negative,"Dear Sir or Madam is a formal way to address a letter to a specific person whose name, title, or gender is unknown."
+Denylist,"""Black""  ""Blacklist""",Race,Postive,
+Diasbled,,Ableism,Postive,
+Dickgirl,"""Transgender woman""",LGBTQ+,Negative,"A male"" respectively, who has not had genital surgery."
+Disabled,"""Person""  ""Has a disability""",Ableism,Negative,"(Of a person) having a physical or mental condition that limits their movements, senses, or activities."
+Discussion,"""Pow wow""",Culture,Postive,
+Disrupting ,"""Running""  ""Run""  ""Amok""",Race,Postive,
+Dothead,"""Bindi""",Religion,Negative,"Referring to the practice of applying bindis, a dot like marking used by married women. "
+Dull,"""Lame""",Ableism,Postive,
+Dyke,"""Lesbian""",LGBTQ+,Negative,A slur term for lesbians. From 1920s black American slang. It was reclaimed by women who are attracted to women in the 1950s.
+Elderly,"""Older""  ""Older""  ""Older person""",Age,Negative,(Of a person) old or ageing.
+Ethnic Minorities,"""Use a specific race""",Race,Negative,A group within a community which has different national or cultural traditions from the main population.
+Ethnic Minority,"""Use a specific race""",Race,Negative,A group within a community which has different national or cultural traditions from the main population.
+Ethnicity,,Race,Neutral,"Tends to refer to identity and things we’ve learned
+over time, such as language, and culture."
+Everybody,"""Guys""  ""Ladies""  ""Sirs and Madams""",Sex,Postive,
+Expert,"""Guru""",Religion,Postive,
+Extortion,"""Blackmail""",Race,Postive,
+Fag,"""Gay man""",LGBTQ+,Negative,A slur against gay men.
+Faggot,"""Gay man""",LGBTQ+,Negative,A slur against gay men.
+Fairy,"""Gay man""",LGBTQ+,Context,A slur reclaimed by gay men in the 1960s.
+Female,"""Woman""",Sex,Negative,"Adjective: he sex that can bear offspring or produce eggs, distinguished biologically by the production of gametes (ova) which can be fertilized by male gametes. Noun: a female animal or plant."
+Fenian,"""Protestant Christian""",Religion,Negative,"A term which was originally used to refer to the Fenian Brotherhood and the Irish Republican Brotherhood, organizations which supported a united Ireland. Today the term is used as a sectarian slur by Protestants, especially in Northern Ireland, Scotland and Australia."
+Firefighter,"""Fireman""",Sex,Postive,
+Fireman,"""Firefighter""",Sex,Negative,A male firefighter.
+Flight attendant,"""Stewardess""  ""Steward""",Sex,Postive,
+Flight attendants,"""Stewardesses""",Sex,Postive,
+Folks,"""Guys""  ""Ladies""  ""Sirs and Madams""",Sex,Postive,
+Foolish,"""Retarded""",Ableism,Postive,
+Fritz,"""German""  ""German people""",Culture,Negative,"A German, especially a soldier in the First World War (often used as a nickname). Or the Germans collectively."
+Gals,"""Women""",Sex,Negative,"A lady is a woman who is refined, polite, and well"" a female lover, or sweetheart."
+Gay man,"""Anal""  ""Anal""  ""Arse""  ""Ass""  ""Faggot""  ""Fag""  ""Chi""  ""Batty""  ""Pansy""  ""Fairy""  ""Lady Boy""",LGBTQ+,Postive,
+Gaysian,"""A gay Asian person""",LGBTQ+,Negative,A gay Asian person.
+Geriatric,"""Older""  ""Older""  ""Older people""",Age,Negative,"Relating to old people, especially with regard to their healthcare. Or as a noun: an old person who is receiving special care."
+German people,"""Fritz""",Culture,Postive,
+German person,"""Fritz""",Culture,Postive,
+Ghetto,,Race,Negative,"A quarter of a city in which Jews were formerly required to live. A quarter of a city in which members of a minority group live especially because of social, legal, or economic pressure. An isolated group or a situation that resembles a ghetto especially in conferring inferior status or limiting opportunity."
+Gibberish,"""Mumbo jumbo""","Culture,Race",Postive,
+Girl ,"""Woman""",Sex,Negative,A female child or a young or relatively young woman.
+Girls,"""Women""",Sex,Negative,A female child or a young or relatively young woman.
+Gobbledygook,"""Mumbo jumbo""","Culture,Race",Postive,
+Golliwog,,Race,Negative,An expression which originally was a children's literature character and type of black doll but which eventually came to be used as a jibe against people with dark skin.
+Grow up,"""Man up""",Sex,Postive,
+Guru,"""Virtuoso""  ""Expert""  ""Professional""",Religion,Negative,A Hindu spiritual teacher. Or a an influential teacher or popular expert.
+Guys,"""People""  ""Peeps""  ""Folks""  ""Team""  ""Team""  ""Everybody""",Sex,Negative,A group of men.
+Gyp ,"""Cheat""  ""Swinddle""","Culture,Race",Negative,To cheat or swindle.
+Gypo,"""Traveller""","Culture,Race",Negative,"The term GYPO is widely used as an abbreviation of the word ""Gypsy."""
+Gypped,"""Cheat""  ""Swinddle""","Culture,Race",Negative,To cheat or swindle.
+Gypsy,"""Traveller""","Culture,Race",Negative,"A member of a people originating in South Asia and traditionally having an itinerant way of life, living widely dispersed across Europe and North and South America and speaking a language (Romani) that is related to Hindi; a Romani person. Or a nomadic or free spirited person."
+Gyspsies,"""Travellers""","Culture,Race",Negative,"People originating in South Asia and traditionally having an itinerant way of life, living widely dispersed across Europe and North and South America and speaking a language (Romani) that is related to Hindi; Romani people. Or a nomadic or free spirited people."
+Hag,,"Age,Sex",Negative,"An old, ugly woman with evil powers. Much like witches, crones, and banshees, hag
+has become a sexist insult degrading women."
+Half breed,"""Mixed""  ""Mixed""  ""Mixed race""",Race,Negative,A derogatory name for a mixed race person.
+Half caste,"""Mixed""  ""Mixed""  ""Mixed heritage""",Race,Negative,A person whose parents are of different races.
+Handicapped,"""Person with a disability""",Ableism,Negative,"A person with a condition that markedly restricts their ability to function physically, mentally, or socially."
+Has a disability,"""Disabled""  ""Crippled""  ""Crip""",Ableism,Postive,
+Head,"""Chairman""",Sex,Postive,
+Hermie,"""Androgynous""  ""Androgynous""  ""Intersex person""",LGBTQ+,Negative,"An androgynous or intersex person, often considered a slur."
+Het up,"""Uppity""",Race,Postive,
+Homo,"""Queer""  ""Homosexual person""",LGBTQ+,Negative,Derogatory term towards a homosexual person.
+Homophobia,,LGBTQ+,Neutral,Dislike of or prejudice against gay people.
+Homophobic,,LGBTQ+,Neutral,Having or showing a dislike of or prejudice against gay people.
+Homosexual,"""Bent""  ""Bentshot""  ""Bender""",LGBTQ+,Postive,"Homosexuality is romantic attraction, sexual attraction, or sexual behavior between members of the same sex or gender.
+"
+Homosexual person,"""Homo""  ""Bent""  ""Bentshot""  ""Bender""",LGBTQ+,Postive,
+Housekeeping,,Sex,Negative,The management of household affairs. Operations such as maintenance or record keeping which facilitate productive work in an organization.
+https://en.wikipedia.org/wiki/Pansy#Slang,"""Gay man""",LGBTQ+,Negative,A derogatory term for a gay man.
+Human beings,"""Mankind""",Sex,Postive,
+human race,"""Mankind""",Sex,Postive,
+Humanity,"""Mankind""",Sex,Postive,
+Hysterical ,,"Mental Health,Sex",Context,Affected by or deriving from wildly uncontrolled emotion. Or relating to or suffering from hysteria.
+Illicit,"""Black Market""",Race,Postive,
+Impeccable,"""Whiter than white""",Race,Postive,
+Indian ,"""Native American""","Culture,Race",Negative,"A member of any of the indigenous peoples of North, Central, and South America, especially those indigenous to what is now the continental US."
+Indian people,"""The Indians""",Race,Postive,
+Insane,"""Shocking""  ""Outrageous""  ""Someone with mental health problems""",Mental Health,Negative,"In a state of mind which prevents normal perception, behaviour, or social interaction; seriously mentally ill. Or shocking; outrageous."
+Intersex person,"""Hermie""  ""Lady Boy""",Sex,Postive,
+Irish Catholic,"""Mick""  ""Paptist""",Religion,Postive,
+Irish Person,"""Bog""  ""Bog""  ""Bogtrotter""  ""Tinker""  ""Tynekere""  ""Tinkere""  ""Tynkere""  ""Tynker""  ""Tenker""  ""Tinkar""  ""Tyncar""  ""Tinkard""  ""Tynkard""  ""Tincker""",Culture,Postive,
+Jaffa,"""Protestant Christian""",Religion,Negative,Derogatory term for protestant Christians (typically used in Ireland). 
+Jargon,"""Mumbo jumbo""","Culture,Race",Postive,
+Jewboy,"""Jewish boy""",Religion,Negative,Jewish boys. Originally directed at young Jewish boys who sold counterfeit coins in 18th century London.
+Jewish boy,"""Jewboy""",Religion,Postive,
+Jewish person,"""Shylock""",Religion,Postive,
+Jock ,,Culture,Negative,A derogatory term for a Scottish person.
+Jockie,,Culture,Negative,A derogatory term for a Scottish person.
+Jocky ,,Culture,Negative,A derogatory term for a Scottish person.
+Kitty puncher,"""Lesbian""",LGBTQ+,Negative,"A derogatory term for lesbians, with both ""kitty"" and ""pussy"" referring to a woman's vagina, and ""puncher"" as a variation on various derogatory terms for gay men, such ""donut puncher”."
+Knacker,"""An Irish traveller""",Culture,Negative,A derogatory term for an Irish traveller. 
+Ladies,"""Women""",Sex,Negative,"A lady is a woman who is refined, polite, and well"" a female lover, or sweetheart."
+Ladies and gentlemen ,"""People""  ""Peeps""  ""Folks""  ""Everybody""",Sex,Negative,Used as a formal way of addressing an audience of men and women.
+Ladies room,"""Bathroom""  ""Restroom""  ""Loo""  ""Toilet""",Sex,Negative,A toilet for women in a public or institutional building.
+Lady,"""Woman""",Sex,Negative,"A lady is a woman who is refined, polite, and well"" a female lover, or sweetheart."
+Lady Boy,"""Gay""  ""Intersex""  ""Transgender woman""",LGBTQ+,Negative,"English translation of kathoey, similar or equivalent to a transgender woman. Can be used as a derogatory term for feminine gay men or intersex people."
+Lady time ,"""Period""  ""Menstruation""",Sex,Negative,When a women is on her period.
+Ladylike,"""Modest""  ""Polite""",Sex,Negative,"Appropriate for or typical of a well"" decorous woman or girl."
+Lame,"""Dull""  ""Uncool""  ""Boring""  ""Person with a disability""",Ableism,Negative,"A person with a disability or impaired in any way; weak, infirm; paralyzed; unable to move. Has a disability in the foot or leg, so as to walk haltingly or be unable to walk. Can also mean boring, uncool or stupid."
+Landlady,"""Owner""  ""Property owner""",Sex,Postive,"A woman who rents out land, a building, or accommodation. Or a woman who keeps lodgings, a boarding house, or a pub."
+Landlord,"""Owner""  ""Property owner""",Sex,Postive,"A person who rents out land, a building, or accommodation. Or a man who keeps lodgings, a boarding house, or a pub."
+Leb,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Left footer,"""Roman""  ""Catholic""",Religion,Negative,An informal phrase for a Roman Catholic particularly amongst the armed forces in the UK.
+Legislator,"""Congressman""",Sex,Postive,
+Les,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Lesbian,"""Dyke""  ""Lezzie""  ""Bean""  ""Carpet""  ""Lesbo""  ""Leso""  ""Les""  ""Leb""  ""Kitty""  ""Rug""  ""Pussy puncher""",LGBTQ+,Postive,
+Lesbo,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Leso,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Letter carrier,"""Mailman""  ""Postman""",Sex,Postive,
+Lezzie ,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Loo,"""Ladies room""",Sex,Postive,
+Look after ,"""Man the""",Sex,,
+Machine made,"""Man made""",Sex,Postive,
+Mad,"""Ridiculous""  ""Wild""  ""Shocking""  ""Unbelievable""  ""Someone with mental health problems""",Mental Health,Negative,"Someone who is mentally ill, especially as manifested in wild or aggressive behaviour. Or extremely enthusiastic."
+Mail carrier,"""Mailman""  ""Postman""",Sex,Postive,
+Mailman,"""Mail""  ""Letter""  ""Postal worker""",Sex,Negative,A person who is employed to deliver and collect letters and parcels.
+Man hours,"""Work""  ""Staff hours""",Sex,Negative,An hour regarded in terms of the amount of work that can be done by one person within this period.
+Man hours,"""Work""  ""Staff hours""",Sex,Negative,An hour regarded in terms of the amount of work that can be done by one person within this period.
+Man made,"""Machine""  ""Synthetic""  ""Artificial""",Sex,Negative,Made or caused by human beings (as opposed to occurring or being made naturally.
+Man the,"""Look after""",Sex,Negative,To be in charge of or look after.
+Man up,"""Be""  ""Grow up""",Sex,Negative,Be brave or tough enough to deal with a difficult or unpleasant situation.
+Mankind,"""People""  ""Human""  ""Humanity""  ""human race""",Sex,Negative,Human beings considered collectively; the human race.
+Manpower,"""Power""  ""Amount of people""",Sex,Negative,The number of people working or available for work or service.
+Master bedroom,"""primary""  ""owner s suite""",Race,Negative,The main or largest bedroom in a house or flat.
+Mastered ,"""Become""  ""proficient""","Race,Sex",Negative,To have become proficient or expert in something.
+Mastering,"""Becoming""  ""Becoming proficient""","Race,Sex",Negative,To be on the way of being proficient or expert in something.
+Meeting,"""Pow wow""",Culture,Postive,
+Menstruation,"""Lady time""",Sex,Postive,
+Mental,"""Ridiculous""  ""Unbelievable""  ""Wild""  ""Shocking""  ""Someone with mental health problems""",Mental Health,Context,"Someone who is mentally ill, especially as manifested in wild or aggressive behaviour. Or extremely enthusiastic."
+Mick,"""Catholic""  ""Irish Catholic""",Religion,Negative,"A derogatory term for a Catholic, usually Irish (a reference to the common ""Mc'"" patronymic of Irish surnames, or a hypocorism of Michael)."
+Minority,"""Underrepresented""  ""Be specific about who you re talking about""","Culture,Race",Negative,"The smaller number or part, especially a number or part representing less than half of the whole"
+Misled,"""Sold down the river""",Race,Postive,
+Misogynist   ,,Sex,Neutral,"Noun: a person who dislikes, despises, or is strongly prejudiced against women. Adjective: relating to or characteristic of a misogynist."
+Misogyny ,,Sex,Neutral,"Dislike of, contempt for, or ingrained prejudice against women."
+Mixed heritage,"""Half""  ""Half breed""",Race,Postive,
+Mixed race,"""Half""  ""Half breed""",Race,Postive,
+Mixed race person,"""Half""  ""Half caste""",Race,Postive,
+Modest,"""Ladylike""",Sex,Postive,
+Moral,"""Whiter than white""",Race,Postive,
+Mumbo jumbo,"""Nonsense""  ""Gibberish""  ""Rigmarole""  ""Jargon""  ""Gobbledygook""","Culture,Race",Negative,Language or ritual causing or intended to cause confusion or bewilderment. Or unnecessarily involved and incomprehensible language.
+Native American,"""American""  ""Indian""","Culture,Race",Neutral,
+Neger ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Negro ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nig ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigar,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Niger ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigette ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigga,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Niggah,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Niggar ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigger ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Niggress,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigguh,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Niggur,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigor ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigra ,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nigre,"""A""  ""Black people""",Race,Negative,A derogatory term for a black person or black people.
+Nip,,"Culture,Race",Negative,"An ethnic slur against people of Japanese descent and origin. The word Nip is an abbreviation from Nippon, the Japanese name  for Japan."
+Nitty gritty,"""The""  ""The""  ""Things you need to know""",Race,Negative,The most important aspects or practical details of a subject or situation.
+Nonsense,"""Mumbo jumbo""","Culture,Race",Postive,
+Northern Monkey,"""A person from the north""",Culture,Negative,"Used in the south of England, relating to the supposed stupidity and lack of sophistication of those in the north of the country"
+OCD,,Mental Health,Context,"Having a tendency towards excessive orderliness, perfectionism, and great attention to detail."
+Old,"""Older""  ""Older""  ""Older people""",Age,Negative,Having lived for a long time; no longer young.
+Old geezer,"""Older""  ""Older""  ""Older people""","Age,Sex",Negative,"A geezer is slang for a man. USA definition:  Elderly, cranky old man."
+Old timer,"""Older""  ""Older""  ""Older people""",Age,Negative,"An old man, or someone who has been or worked in a place for a long time."
+Older adult,"""Elderly""  ""Old""  ""Geriatric""  ""Old""  ""Cougar""  ""Old""  ""Senior""  ""Aged""",Age,,
+Older people,"""Elderly""  ""Old""  ""Geriatric""  ""Old""  ""Cougar""  ""Old""  ""Senior""  ""Aged""",Age,,
+Older person,"""Elderly""  ""Old""  ""Geriatric""  ""Old""  ""Cougar""  ""Old""  ""Senior""  ""Aged""",Age,,
+Oreo,,Race,Context,"Used as early as the 1960s. Refers to a black person who is perceived as acting white, and therefore black on the outside and white on the inside like an Oreo cookie."
+Outcast,"""Black sheep""",Race,Postive,
+Outrageous,"""Insane""",Mental Health,Postive,
+Owner,"""Landlord""  ""Landlady""",Sex,Postive,
+owner’s suite,"""Master bedroom""",Race,Postive,
+Pak,"""Pakistanis""",Race,Negative,"A derogatory slur for a person from Pakistan or South Asia by birth or descent, especially one living in Britain."
+Paki ,"""Pakistanis""",Race,Negative,"A derogatory slur for a person from Pakistan or South Asia by birth or descent, especially one living in Britain."
+Pakistanis,"""Paki""  ""Pakkis""  ""Pak""",Race,Postive,
+Pakkis ,"""Pakistanis""",Race,Negative,"A derogatory slur for a person from Pakistan or South Asia by birth or descent, especially one living in Britain."
+Pancake face,,Race,Negative,A derogatory term for a Chinese person.
+Paptist,"""Irish Catholic""",Religion,Negative,A derogatory term usually referring to an Irish Catholic.
+Peanut gallery,"""The""  ""Seats at the back""",Race,Negative,The top gallery in a theatre where the cheaper seats are located.
+Peeps,"""Guys""  ""Ladies""  ""Sirs and Madams""",Sex,Postive,
+People,"""Guys""  ""Ladies""  ""Mankind""  ""Sirs and Madams""",Sex,Postive,
+People experiencing homelessness,"""Tramp""",Class,Postive,
+People of colour,"""Use a specific race""",Race,Negative,Coloured is a racial descriptor historically used in the United States (during the Jim Crow Era) to refer to an African American.
+Period,"""Lady time""",Sex,Postive,
+Person with a disability.,"""Handicapped""  ""Lame""  ""Disabled""  ""Crippled""  ""Crip""",Ableism,Postive,
+Piker,"""Traveller""  ""An""  ""Romani""  ""Romani people""","Culture,Race",Negative,"Derived from ""turnpike"".  Referring to Irish travellers, Romani people or itinerant or vagrant lower class or poor people. "
+Pikey ,"""An""  ""Traveller""  ""Romani""  ""Romani people""","Culture,Race",Negative,"Derived from ""turnpike"".  Referring to Irish travellers, Romani people or itinerant or vagrant lower class or poor people. "
+Piky,"""Traveller""  ""An""  ""Romani""  ""Romani people""","Culture,Race",Negative,"Derived from ""turnpike"".  Referring to Irish travellers, Romani people or itinerant or vagrant lower class or poor people. "
+Pirated,"""Black Market""",Race,Postive,
+Plastic Paddy,,Culture,Negative,"A person who, although not born in Ireland, is of Irish descent and places great importance on Irishness. Can refer to foreign nationals who claim Irishness based solely on having Irish relatives"
+Police officer,"""Policeman""",Sex,Postive,A male member of a police force.
+Policeman,"""Police officer""",Sex,Negative,
+Polite,"""Ladylike""",Sex,Postive,
+Postal worker,"""Mailman""  ""Postman""",Sex,Postive,
+Postman ,"""Mail""  ""Postal""  ""Letter carrier""",Sex,Negative,A person who is employed to deliver and collect letters and parcels.
+Pow wow,"""Meeting""  ""Discussion""",Culture,Negative,"A Native American ceremony involving feasting, singing and dancing. Informally known as (as a noun) a conference or meeting for discussion, especially among friends or colleagues or (as a verb) meet or confer.   "
+Power,"""Manpower""",Sex,Postive,
+primary bedroom,"""Master bedroom""",Race,Postive,
+Prod,"""Christian""  ""Protestant Christian""",Religion,Negative,"Particularly used by bullies to disparage a child who attends a Protestant school. ""Proddywhoddy"" and ""proddywoddy"" are used in children's school rhymes in Cork. "
+Proddywhoddy,"""Christian""  ""Protestant Christian""",Religion,Negative,"Particularly used by bullies to disparage a child who attends a Protestant school. ""Proddywhoddy"" and ""proddywoddy"" are used in children's school rhymes in Cork. "
+Proddywoddy,"""Christian""  ""Protestant Christian""",Religion,Negative,"Particularly used by bullies to disparage a child who attends a Protestant school. ""Proddywhoddy"" and ""proddywoddy"" are used in children's school rhymes in Cork. "
+Professional ,"""Guru""",Religion,Postive,
+proficient,"""Become""  ""Mastered""","Race,Sex",Postive,
+Property owner,"""Landlord""  ""Landlady""",Sex,Postive,
+Prostitute,"""Sex""  ""Sex work""",Sex,Negative,"A person, in particular a woman, who engages in sexual activity for payment. Or as a verb to offer (someone) for sexual activity in exchange for payment."
+Prostitution ,"""Sex work""",,,
+Protestant Christian,"""Prod""  ""Proddywhoddy""  ""Proddywoddy""  ""Fenian""  ""Jaffa""",Religion,Postive,
+Pussy puncher,"""Lesbian""",LGBTQ+,Negative,"A derogatory term for lesbians, with both ""kitty"" and ""pussy"" referring to a woman's vagina, and ""puncher"" as a variation on various derogatory terms for gay men, such ""donut puncher”."
+Queer,,LGBTQ+,Context,"Umbrella term for sexual and gender minorities who are not heterosexual or are not cisgender, sometimes considered a slur."
+Queer ,"""Bent""  ""Bentshot""  ""Bender""",LGBTQ+,Context,Umbrella term for sexual and gender minorities who are not heterosexual or are not cisgender. Sometimes considered a slur.
+Queer person,"""Homo""  ""Bent""  ""Bentshot""  ""Bender""",LGBTQ+,Postive,
+Race,,Race,Neutral,"Tends to refer to physical or biological traits like skin colour – often, things you were born with."
+Racism ,,Race,Neutral,"Prejudice, discrimination, or antagonism by an individual, community, or institution against a person or people on the basis of their membership of a particular racial or ethnic group, typically one that is marginalized. The belief that different races possess distinct characteristics, abilities, or qualities, especially so as to distinguish them as inferior or superior to one another."
+Racist,,Race,Neutral,"Noun: A person who is prejudiced against or antagonistic towards people on the basis of their membership of a particular racial or ethnic group, typically one that is marginalized. Adjective: Prejudiced against or antagonistic towards a person or people on the basis of their membership of a particular racial or ethnic group, typically one that is marginalized. "
+Raghead,,"Culture,Race,Religion",Negative,Derived from those people wearing traditional headdress such as turbans or keffiyehs. Sometimes used generically for all Islamic nations.
+Restroom,"""Ladies room""",Sex,Postive,
+Retard,"""Someone with a mental disability""",Ableism,Negative,"A pejorative term either for someone with a mental disability or for someone who is stupid, slow to understand, or ineffective in some way."
+Retarded,"""Uncool""  ""Foolish""",Ableism,Negative,"The adjective retarded used for something very foolish or stupid. Derived from retard which is a term for someone with a mental disability or for someone who is stupid, slow to understand, or ineffective in some way."
+Rice bag,,Religion,Negative,"Someone who has formally declared themself a Christian for material benefits rather than for religious reasons. In India, the term was extended to refer to any Christian convert."
+Rice Christian ,,Religion,Negative,"Someone who has formally declared themself a Christian for material benefits rather than for religious reasons. In India, the term was extended to refer to any Christian convert."
+Ridiculous,"""Crazy""  ""Mental""  ""Mad""  ""Bonkers""",Mental Health,Postive,
+Ridiculously,"""Crazy""",Mental Health,Postive,
+Rigmarole,"""Mumbo jumbo""","Culture,Race",Postive,
+Roman catholic,"""Left footer""",Religion,Postive,
+Romani people,"""Pikey""  ""Piky""  ""Piker""",Race,Postive,
+Romani person,"""Pikey""  ""Piky""  ""Piker""  ""Tinker""  ""Tynekere""  ""Tinkere""  ""Tynkere""  ""Tynker""  ""Tenker""  ""Tinkar""  ""Tyncar""  ""Tinkard""  ""Tynkard""  ""Tincker""",Race,Postive,
+Rug muncher,"""Lesbian""",LGBTQ+,Negative,A derogatory term for lesbians.
+Run amok,"""Behaving""  ""Disrupting""  ""Behaving badly""","Culture,Mental Health",Negative,Behave uncontrollably and disruptively.
+Running amok,"""Behaving""  ""Disrupting""  ""Behaving badly""","Culture,Mental Health",Negative,Behave uncontrollably and disruptively.
+Scapegrace,"""Black sheep""",Race,Postive,
+Scottish person,"""Tinker""  ""Tynekere""  ""Tinkere""  ""Tynkere""  ""Tynker""  ""Tenker""  ""Tinkar""  ""Tyncar""  ""Tinkard""  ""Tynkard""  ""Tincker""",Religion,Postive,
+Scrounger,"""A""  ""Someone""  ""Someone that receives financial aid""",Class,Negative,A person who borrows from or lives off others.
+Seats at the back,"""Peanut gallery""",Race,Postive,
+Senior,"""Older""  ""Older""  ""Older people""",Age,Negative,"As an adjective, of or for older or more experienced people. As a noun, a person who is a specified number of years older than someone else."
+Sex work,"""Prostitute""  ""Prostitution""",Sex,Postive,
+Sex worker,"""Whore""  ""Prostitute""",Sex,Postive,
+Sexism,,Sex,Neutral,"Prejudice, stereotyping, or discrimination, typically against women, on the basis of sex."
+Sexist,,Sex,Neutral,"Adjective: characterized by or showing prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. Noun: a person with sexist views."
+Sexual Orientation ,"""Sexual preference""",,Postive,
+Sexual preference,"""Sexual Orientation""",,Negative,
+Sheepshagger,,"Culture,Race",Negative,"Derogatory term for New Zealanders or welsh people.
+"
+Shemale,"""Transgender woman""",LGBTQ+,Negative,A transgender woman with male genitalia and possibly female secondary sex characteristics. Primarily a term used in pornography and often considered derogatory.
+Shocking,"""Insane""  ""Mental""  ""Mad""",Mental Health,Postive,
+Shylock,"""Jewish person""",Religion,Negative,"Referring to Jewish people as shrewd and money loving; derived from the character in Shakespeare's play ""Merchant of Venice""."
+Silly,"""Crazy""",Mental Health,Postive,
+Sirs and Madams,"""People""  ""Peeps""  ""Folks""  ""Everybody""",Sex,Negative,Used as a formal way of addressing men and women.
+Skank,,Sex,Negative,"Derogatory term for a (usually younger) female, implying promiscuity, ugliness or poor hygiene. "
+Skanky,,Sex,Negative,(Especially of a person) dirty and unpleasant. Typically used towards women.
+Slope ,,"Culture,Race",Negative,A derogatory term for Asian people (especially Vietnamese in Australia; especially Chinese in America)
+Slopehead ,,"Culture,Race",Negative,A derogatory term for Asian people (especially Vietnamese in Australia; especially Chinese in America)
+Sloper,,"Culture,Race",Negative,A derogatory term for Asian people (especially Vietnamese in Australia; especially Chinese in America)
+Slopey,,"Culture,Race",Negative,A derogatory term for Asian people (especially Vietnamese in Australia; especially Chinese in America)
+Slopy ,,"Culture,Race",Negative,A derogatory term for Asian people (especially Vietnamese in Australia; especially Chinese in America)
+Slut,,Sex,Negative,An offensive term for a woman who has many casual sexual partners.
+Sold down the river,"""Betrayed""  ""Misled""",Race,Negative,
+Someone clumsy,"""Spastic""  ""Spaz""",Ableism,Postive,
+Someone that receives benefits,"""Scrounger""",Class,Postive,
+Someone that receives financial aid,"""Scrounger""",Class,Postive,
+Someone with a mental disability,"""Retard""",Ableism,Postive,
+Someone with mental health problems,"""Crazy""  ""Insane""  ""Mental""  ""Mad""  ""Bonkers""",Mental Health,Postive,
+Southern Faerie,"""A person from the south""",Culture,Negative,"Used in the https://en.wikipedia.org/wiki/North_of_England
+ to refer to someone from the South, alluding to their supposed mollycoddled ways."
+Southern Fairy,"""A person from the south""",Culture,Negative,"Used in the https://en.wikipedia.org/wiki/North_of_England
+ to refer to someone from the South, alluding to their supposed mollycoddled ways."
+Spastic,"""Someone clumsy""",Ableism,Negative,"An old"" incapable, or incompetent person."
+Spaz,"""Someone clumsy""",Ableism,Negative,"Short for spastic. An old"" incapable, or incompetent person."
+Spearchucker,,Race,Negative,A derogatory term for people of African descent. Derived from the idea that people of African descent were primitive.
+Staff hours,"""Man hours""",Sex,Postive,
+Staff hours,"""Man hours""",Sex,Postive,
+Steward,"""Cabin""  ""Flight attendant""",Sex,Negative,"A man employed to look after the passengers on a ship, aircraft, or train."
+Stewardess,"""Flight""  ""Cabin attendant""",Sex,Negative,A woman employed to look after the passengers on a ship or aircraft.
+Stewardesses,"""Flight""  ""Cabin attendants""",Sex,Negative,A woman employed to look after the passengers on a ship or aircraft.
+Swinddle,"""Gyp""  ""Gypped""",Race,Postive,
+Synthetic,"""Man made""",Sex,Postive,
+T girl,"""Transgender woman""",LGBTQ+,Negative,"Short for trans girl, considered derogatory by some."
+Team,"""Guys""",Sex,Postive,
+Team mates,"""Guys""",Sex,Postive,
+Tenker ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+The Asians,"""Asian people""",Race,Negative,Terms referring to Asian people collectively.
+The blacks,"""Black people""",Race,Negative,Terms referring to black people collectively.
+The cheap seats,"""Peanut gallery""",Race,Postive,
+The common man,"""Average person""",Sex,Negative,The undistinguished commoner lacking class or rank distinction or special attributes
+The facts,"""Nitty gritty""",Race,Postive,
+The important stuff,"""Nitty gritty""",Race,Postive,
+The Indians,"""Indian people""",Race,Negative,Terms referring to Indian people collectively.
+Thick Lips,,Race,Negative,A derogatory term for black people.
+Things you need to know,"""Nitty gritty""",Race,Postive,
+Tincker,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tinkar ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tinkard,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tinker ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tinkere ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+To Whom it May Concern,"""Dear sir or madam""",Sex,Postive,
+Toilet,"""Ladies room""",Sex,Postive,
+Tramp,"""People experiencing homelessness""","Class,Sex",Negative,A person who travels from place to place on foot in search of work or as a vagrant or beggar. Or derogatory term for a female sex worker or a synonym for slut.
+Tranny,"""Transgender person""",LGBTQ+,Negative,Slur used for transgender people.
+Transgender man,"""Cuntboy""",LGBTQ+,Postive,A man who was assigned female at birth.
+Transgender person ,"""Tranny""",LGBTQ+,Postive,
+Transgender woman,"""Dickgirl""  ""T""  ""Lady""  ""Shemale""",LGBTQ+,Postive,A woman who was assigned male at birth.
+Transphobia,,LGBTQ+,Neutral,Dislike of or prejudice against transsexual or transgender people.
+Transphobic ,,LGBTQ+,Neutral,Having or showing a dislike of or prejudice against transsexual or transgender people.
+Traveller,"""Pikey""  ""Piky""  ""Piker""  ""Tinker""  ""Tynekere""  ""Tinkere""  ""Tynkere""  ""Tynker""  ""Tenker""  ""Tinkar""  ""Tyncar""  ""Tinkard""  ""Tynkard""  ""Tincker""  ""Gypo""  ""Gypsy""",Culture,Postive,
+Travellers,"""Gyspsies""","Culture,Race",Postive,
+Tyncar ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tynekere,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tynkard ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tynker ,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Tynkere,"""Irish""  ""Romani""  ""Scottish""  ""Traveller""","Culture,Race",Negative,"An inconsequential person (typically lower"" the term ""Irish Tinker"" may be used).  Could be used as a slur against Romani people "" being also known in the past as ""travelling tinsmiths,"" possibly derived from a reputation for rowdy and alcoholic recreation."
+Unauthorised,"""Black Market""",Race,Postive,
+Unbelievable ,"""Crazy""  ""Mental""  ""Mad""",Mental Health,Postive,
+Uncool,"""Lame""  ""Retarded""",Ableism,Postive,
+Underground economy,"""Black economy""",Race,Postive,
+Underrepresented,"""Minority""","Culture,Race",Postive,
+Unlawful,"""Black Market""",Race,Postive,
+Unofficial ,"""Black Market""",Race,Postive,
+Unsanctioned,"""Black Market""",Race,Postive,
+Uppity,"""Agitated""  ""Het up""",Race,Negative,"Agitated, het up."
+Use a specific race,"""Coloured""  ""People""  ""Ethnic""  ""Ethnic""  ""BAME""  ""BME""",Race,Neutral,
+Virtuoso,"""Guru""",Religion,Postive,
+"whenever possible, Native people prefer to be called by their specific tribal name","""American Indian""","Culture,Race",Postive,
+Whiter than white,"""Impeccable""  ""Moral""",Race,Negative,Morally beyond reproach.
+Whore,"""Sex worker""",Sex,Negative,A prostitute.
+Wild,"""Crazy""  ""Mental""  ""Mad""  ""Bonkers""",Mental Health,Postive,
+Woman,"""Lady""  ""Girl""  ""Female""",Sex,Postive,
+Women,"""Ladies""  ""Gals""  ""Girls""",Sex,Postive,
+Work hours,"""Man hours""",Sex,Postive,
+Work hours,"""Man hours""",Sex,Postive,
+Yellow ,,Race,Context,"An East or southeast Asian person, in reference to those who have a yellowish skin colour. Or anyone of mixed heritage, especially black or white people; a light"" or a dark skinned white person."
+Young people,"""Youngsters""",Age,Postive,
+Youngster ,"""A young person""",Age,Negative,"A child, young person, or young animal."
+Youngsters,"""Young people""",Age,Negative,"Children, young people, or young animals."
