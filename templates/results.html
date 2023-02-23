@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Offensive Word Checker Results</title>
+  </head>
+  <body>
+    <h1>Offensive Word Checker Results</h1>
+    <p>You entered the following text:</p>
+    <p>{{ text }}</p>
+    {% if offensive_words %}
+      <p>The following words in your text may be offensive:</p>
+      <ul>
+        {% for word in offensive_words %}
+          <li>{{ word }}</li>
+        {% endfor %}
+      </ul>
+      {% if replacements %}
+        <p>Here are some alternative words you can use:</p>
+        <ul>
+          {% for replacement in replacements %}
+            <li>{{ replacement }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>Sorry, we don't have any alternative words for these offensive words.</p>
+      {% endif %}
+    {% else %}
+      <p>Your text is free of offensive words. Good job!</p>
+    {% endif %}
+  </body>
+</html>
