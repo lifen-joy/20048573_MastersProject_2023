@@ -1,58 +1,34 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 import csv
 
-#state this is the app
 app = Flask(__name__)
 
-data = []
+# Load the CSV file with the non-inclusive words and their inclusive alternatives
+def load_word_list():
+    with open('dictionary.csv', newline='', encoding='utf-8') as csvfile:
+        word_list = list(csv.DictReader(csvfile))
+    return word_list
 
+# Check the input text for non-inclusive words and return a list of recommendations
+def check_text(input_text, word_list):
+    recommendations = []
+    for word in word_list:
+        if word['word'].lower() in input_text.lower():
+            recommendations.append(word)
+    return recommendations
 
-# Load the data from the CSV file
-with open('dictionary.csv', 'r') as infile:
-    reader = csv.DictReader(infile)
-    for row in reader:
-        data.append(row)
-
+# Render the main page with the form
 @app.route('/')
-def home():
+def index():
     return render_template('index.html')
 
+# Process the form submission and display the results
 @app.route('/', methods=['POST'])
-def check_text():
-    # Get the user input from the form
-    text = request.form['text']
-
-    # Split the text into words
-    words = text.split()
-
-    # Initialize a list to store any offensive words
-    offensive_words = []
-
-    # Loop through each word in the text
-    for word in words:
-        # Check if the word is in the dictionary
-        for item in data:
-            if word.lower() == item['Word'].lower():
-                # If the word is in the dictionary, add it to the list of offensive words
-                offensive_words.append(word)
-
-    # Initialize a list to store the suggested replacements
-    replacements = []
-
-    # Loop through each offensive word
-    for word in offensive_words:
-        # Find the corresponding entry in the dictionary
-        for item in data:
-            if word.lower() == item['Word'].lower():
-                # If an alternative word is available, add it to the list of replacements
-                if item['Alt word']:
-                    replacements.append(item['Alt word'])
-                # Otherwise, use the original word as the replacement
-                else:
-                    replacements.append(word)
-
-    # Render the results page with the offensive words and suggested replacements
-    return render_template('results.html', text=text, offensive_words=offensive_words, replacements=replacements)
+def check_text_submit():
+    input_text = request.form['text']
+    word_list = load_word_list()
+    recommendations = check_text(input_text, word_list)
+    return render_template('results.html', recommendations=recommendations, input_text=input_text)
 
 if __name__ == '__main__':
     app.run(debug=True)
