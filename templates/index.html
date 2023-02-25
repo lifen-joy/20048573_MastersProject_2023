@@ -15,10 +15,13 @@
     <h1>Copy Checker</h1>
     <form id="text-form">
         <label for="text-input">Enter some text:</label>
-        <textarea id="text-input" name="text" rows="4" cols="50"></textarea>
+        <textarea id="text-input" name="text" rows="15" cols="50"></textarea>
         <button type="submit">Check Text</button>
     </form>
-    <div id="result"></div>
+    <div id="recommendations">
+        <h2>Recommendations:</h2>
+        <ul id="recommendation-list"></ul>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>

@@ -4,8 +4,6 @@ import csv
 #state this is the app
 app = Flask(__name__)
 
-import csv
-
 data = []
 
 
