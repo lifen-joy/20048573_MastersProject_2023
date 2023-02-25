@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <nav class="menu-bar">
-            <!-- menu items go here -->
-        </nav>
-        <!-- rest of the page content goes here -->
-    </body>
-    
+<html>   
 <head>
     <title>Offensive Word Checker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
+    <nav class="menu-bar">
     <h1>Copy Checker</h1>
     <form id="text-form">
-        <label for="text-input">Enter some text:</label>
-        <textarea id="text-input" name="text" rows="15" cols="50"></textarea>
+        <label for="text-input">Paste or type your text:</label>
+        <textarea id="text-input" name="text" rows="15" cols="80"></textarea>
         <button type="submit">Check Text</button>
     </form>
     <div id="recommendations">
@@ -23,6 +17,6 @@
         <ul id="recommendation-list"></ul>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script src="static/script.js"></script>
 </body>
 </html>
