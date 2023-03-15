@@ -1,34 +1,30 @@
-
-
-
-#Cleaning and pre-processing data
-
-# Remove gendered pronouns from the stop words set as this is needed for the testing
-gendered_pronouns = {'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself'}
-stop_words = stop_words.difference(gendered_pronouns)
-
-#Core imports
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-
-import nltk
-nltk.download('stopwords')
-stop_words = set(stopwords.words('english'))
-#tokenize
-from nltk.tokenize import word_tokenize
-nltk.download('punkt')
-#Stem words 
-from nltk.stem.porter import PorterStemmer
-
-#regular expressions 
 import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem.porter import PorterStemmer
+from collections import Counter
 
-#most common words
-from collections import Counter 
+
+# Download necessary NLTK data
+nltk.download('stopwords')
+nltk.download('punkt')
+
+# Create stop words set and remove gendered pronouns
+stop_words = set(stopwords.words('english'))
+gendered_pronouns = {'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself'}
+stop_words = stop_words.difference(gendered_pronouns)
+
+# Word list 
+masculine_words = ['active', 'adventurous', 'aggress', 'ambitio', 'analy', 'assert', 'athlet', 'autonom', 'battle', 'boast', 'challeng', 'champion', 'compet', 'confident', 'courag', 'decid', 'decision', 'decisive', 'defend', 'determin', 'domina', 'dominant', 'driven', 'fearless', 'fight', 'force', 'greedy', 'head-strong', 'headstrong', 'hierarch', 'hostil', 'impulsive', 'independen', 'individual', 'intellect', 'lead', 'logic', 'objective', 'opinion', 'outspoken', 'persist', 'principle', 'reckless', 'self-confiden', 'self-relian', 'self-sufficien', 'selfconfiden', 'selfrelian', 'selfsufficien', 'stubborn', 'superior', 'unreasonab', 'Actor', 'Bogeyman', 'Boogeyman', 'Businessman', 'Businessmen', 'Chairman', 'Congressman', 'Fireman', 'Guys', 'Housekeeping', 'Mailman', 'Man hours', 'Man made', 'Man up', 'Mankind', 'Manpower', 'Mastered', 'Mastering', 'Old geezer', 'Policeman', 'Postman', 'Steward', 'The common man', 'gentlemen', 'male', 'man', 'master']
+feminine_words = ['affectionate', 'agree', 'cheer', 'child', 'co-operat', 'collab', 'commit', 'communal', 'compassion', 'connect', 'considerate', 'cooperat', 'depend', 'emotiona', 'empath', 'enthusias', 'feel', 'flatterable', 'gentle', 'honest', 'inclusive', 'inter-dependen', 'inter-persona', 'inter-personal', 'interdependen', 'interpersona', 'interpersonal', 'kind', 'kinship', 'loyal', 'modesty', 'nag', 'nurtur', 'pleasant', 'polite', 'quiet', 'respon', 'sensitiv', 'share', 'sharin', 'submissive', 'support', 'sympath', 'tender', 'together', 'trust', 'understand', 'warm', 'whin', 'yield', 'Actress', 'Crone', 'Female', 'Gals', 'Girl', 'Girls', 'Hag', 'Ladies', 'Ladies room', 'Lady', 'Lady time', 'Ladylike', 'Prostitute', 'Skank', 'Skanky', 'Slut', 'Stewardess', 'Stewardesses', 'Tramp', 'Whore', 'sirmadam']
+masculine_pronouns = ['he', 'him', 'his', 'himself', 'man', 'men', 'male', 'father', 'brother', 'son', 'uncle', 'grandfather', 'nephew', 'husband', 'boyfriend', 'groom', 'king', 'prince', 'emperor', 'sir', 'lord']
+feminine_pronouns = ['she', 'her', 'hers', 'herself', 'woman', 'women', 'female', 'mother', 'sister', 'daughter', 'aunt', 'grandmother', 'niece', 'wife', 'girlfriend', 'bride', 'queen', 'princess', 'empress', 'lady', 'madam']
+
 
 def clean_text(text):
     # Remove special characters, numbers, and quotation marks
@@ -57,45 +53,25 @@ def clean_text(text):
     return cleaned_text
 
 
-# Tokenize https://www.geeksforgeeks.org/text-preprocessing-in-python-set-1/
-
+# Tokenize 
 def tokenize_text(text):
     return word_tokenize(text)
 
-# Apply the tokenizing function to the clean_copy column
-data['clean_copy'] = data['clean_copy'].apply(tokenize_text)
 
 #Stem words 
-
 stemmer = PorterStemmer()
 
 def stem_words(words):
     stemmed_words = [stemmer.stem(word) for word in words]
     return stemmed_words
 
-# Apply the stemming function to the clean_copy column
-data['clean_copy'] = data['clean_copy'].apply(stem_words)
-
-
-# Word list from literature and company research  
-
-masculine_words: ['active', 'adventurous', 'aggress', 'ambitio', 'analy', 'assert', 'athlet', 'autonom', 'battle', 'boast', 'challeng', 'champion', 'compet', 'confident', 'courag', 'decid', 'decision', 'decisive', 'defend', 'determin', 'domina', 'dominant', 'driven', 'fearless', 'fight', 'force', 'greedy', 'head-strong', 'headstrong', 'hierarch', 'hostil', 'impulsive', 'independen', 'individual', 'intellect', 'lead', 'logic', 'objective', 'opinion', 'outspoken', 'persist', 'principle', 'reckless', 'self-confiden', 'self-relian', 'self-sufficien', 'selfconfiden', 'selfrelian', 'selfsufficien', 'stubborn', 'superior', 'unreasonab', 'Actor', 'Bogeyman', 'Boogeyman', 'Businessman', 'Businessmen', 'Chairman', 'Congressman', 'Fireman', 'Guys', 'Housekeeping', 'Mailman', 'Man hours', 'Man made', 'Man up', 'Mankind', 'Manpower', 'Mastered', 'Mastering', 'Old geezer', 'Policeman', 'Postman', 'Steward', 'The common man', 'gentlemen', 'male', 'man', 'master']
-
-feminine_words: ['affectionate', 'agree', 'cheer', 'child', 'co-operat', 'collab', 'commit', 'communal', 'compassion', 'connect', 'considerate', 'cooperat', 'depend', 'emotiona', 'empath', 'enthusias', 'feel', 'flatterable', 'gentle', 'honest', 'inclusive', 'inter-dependen', 'inter-persona', 'inter-personal', 'interdependen', 'interpersona', 'interpersonal', 'kind', 'kinship', 'loyal', 'modesty', 'nag', 'nurtur', 'pleasant', 'polite', 'quiet', 'respon', 'sensitiv', 'share', 'sharin', 'submissive', 'support', 'sympath', 'tender', 'together', 'trust', 'understand', 'warm', 'whin', 'yield', 'Actress', 'Crone', 'Female', 'Gals', 'Girl', 'Girls', 'Hag', 'Ladies', 'Ladies room', 'Lady', 'Lady time', 'Ladylike', 'Prostitute', 'Skank', 'Skanky', 'Slut', 'Stewardess', 'Stewardesses', 'Tramp', 'Whore', 'sirmadam']
-
-# Common pronoun used text from spoken language 
-masculine_pronouns = ['he', 'him', 'his', 'himself', 'man', 'men', 'male', 'father', 'brother', 'son', 'uncle', 'grandfather', 'nephew', 'husband', 'boyfriend', 'groom', 'king', 'prince', 'emperor', 'sir', 'lord']
-
-feminine_pronouns = ['she', 'her', 'hers', 'herself', 'woman', 'women', 'female', 'mother', 'sister', 'daughter', 'aunt', 'grandmother', 'niece', 'wife', 'girlfriend', 'bride', 'queen', 'princess', 'empress', 'lady', 'madam']
 
 # Checking text for word 
-
 def find_gendered_words(tokens, word_list):
     return [word for word in word_list if word in tokens]
 
 
 # Function to analyze and display gendered words information in the clean text
-
 def analyze_gendered_words(clean_text, original_text):
     fem_words = find_gendered_words(clean_text, feminine_words)
     masc_words = find_gendered_words(clean_text, masculine_words)
@@ -159,4 +135,9 @@ def label_gender(row):
     else:
         return 2
 
-data['gender_label'] = data.apply(label_gender, axis=1)
+def process_data(data):
+    data['clean_copy'] = data['Ad_copy'].apply(clean_text)
+    data['clean_copy'] = data['clean_copy'].apply(tokenize_text)
+    data['clean_copy'] = data['clean_copy'].apply(stem_words)
+    data['gender_label'] = data.apply(label_gender, axis=1)
+    return data

@@ -1,3 +1,6 @@
+from manuel_analysis import clean_text, tokenize_text, find_gendered_words
+from manuel_analysis import feminine_words, masculine_words, feminine_pronouns, masculine_pronouns
+
 def main():
     print("Please enter the text you want to analyze:")
     user_input = input()
