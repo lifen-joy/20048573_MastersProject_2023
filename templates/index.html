@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offensive Word Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gender Word Detection</h1>
+    <form action="/process" method="POST">
+        <label for="text_input">Paste or type your text:</label>
+        <textarea id="text_input" name="input_text" rows="15" cols="80"></textarea>
+        <button type="submit">Check Text</button>
+    </form>
+    <div id="recommendations">
+        <h2>Recommendations:</h2>
+        <ul id="recommendation-list"></ul>
+    </div>
+
+</body>
+</html>
