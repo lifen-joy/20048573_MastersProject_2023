@@ -21,6 +21,7 @@ The project consists of the following files and directories:
 - env: A directory containing the virtual environment for the project.
 - Static: A directory containing static files such as stylesheets (CSS) for the web application.
 - Templates: A directory containing HTML templates for the web application.
+- Video: Short video of the tool in operation
 
 
 ## How to Use
@@ -28,6 +29,10 @@ The project consists of the following files and directories:
 2. Click the "Check Text" button to submit the text for analysis.
 3. Review the analysis results, which include masculine words, feminine words, the number of masculine pronouns, the number of feminine pronouns, and the overall gender label (Masculine, Feminine, or Neutral).
 
+### Sample Text
+1. Great design challenges more than just the eyes. It challenges the future. We designed the RDX to challenge not just the future of SUVs, but also the future of Acura. The future starts now. The future is the Acura RDX. Acura. Everything we ever imagined. And then some
+2. Your brain has 2 sides. The right side: creative, buys things, has fun. The left side: organized, practical, saves money.Now JC Penney makes both sides happy. It’s the buy more, save more sale. It’s simple, the more you buy, the more you save. 20 to 30%. So use your head. Buy more. Save more. Only at JC Penney. 
+3. New Disney Princess Pop-Up Magic games! Once upon a time…not far away…three games popped up where the Disney Princesses played! With a spin to the castle they came, and won this pop-up magic game! New Disney Princess Pop-Up Magic Castle Games. Cinderella’s Coach and Tangled Tower Games each sold separately. And now… The journey continues at your local Stride Rite store! Purchase a pair of Stride Rite Disney Princess shoes and get a free Cinderella’s Coach game! While supplies last. But don’t wait until the midnight hour! This deal is only from February 21st to the 23rd! Locations may vary. 
 
 ## Visuals
 
