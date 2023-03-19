@@ -29,14 +29,14 @@ def clean_text(text):
     return cleaned_text
 
 #Step 2
-def tokenize_text(text):
-    return word_tokenize(text)
+def tokenize_text(cleaned_text):
+    return word_tokenize(cleaned_text)
 
 #Step 3
-def stem_words(words):
+def stem_words(cleaned_text):
     stemmer = PorterStemmer()
-    stemmed_words = [stemmer.stem(word) for word in words]
-    return stemmed_words
+    stemmed_words = [stemmer.stem(word) for word in cleaned_text]
+    return cleaned_text
 
 
 
@@ -52,8 +52,8 @@ def find_gendered_words(tokens, word_list):
     return [token for token in tokens if token in word_list]
 
 
-def analyze_gendered_words(clean_text, original_text):
-    tokens = tokenize_text(clean_text)
+def analyze_gendered_words(cleaned_text):
+    tokens = tokenize_text(cleaned_text)
     stemmed_tokens = stem_words(tokens)
     
     fem_words = find_gendered_words(stemmed_tokens, feminine_words)
@@ -99,7 +99,7 @@ def process_input_text(input_text):
     cleaned_text = clean_text(input_text)
     tokenized_text = tokenize_text(cleaned_text)
     stemmed_text = stem_words(tokenized_text)
-    analysis_results = analyze_gendered_words(stemmed_text, input_text)
+    analysis_results = analyze_gendered_words(stemmed_text)
 
     return analysis_results
 
@@ -110,7 +110,7 @@ def index():
         analysis_results = process_input_text(input_text)
         gender_label = label_gender(input_text)
         processed_text = analysis_results['cleaned_text']
-        return render_template('index.html', input_text=input_text, processed_text=processed_text, gender_label=gender_label)
+        return render_template('index.html', input_text=input_text, processed_text=processed_text, gender_label=gender_label, analysis_results=analysis_results)
     return render_template('index.html')
 
 if __name__ == "__main__":

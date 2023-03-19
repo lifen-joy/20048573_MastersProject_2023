@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offensive Word Checker</title>
+    <title>Gender Word Detection</title>
 </head>
 <body>
     <h1>Gender Word Detection</h1>
@@ -13,10 +13,12 @@
         <textarea id="text_input" name="input_text" rows="15" cols="80"></textarea>
         <button type="submit">Check Text</button>
     </form>
-    {% if processed_text and gender_label %}
-        <h2>Results:</h2>
-        <p><strong>Processed Text:</strong> {{ processed_text }}</p>
-        <p><strong>Gender Label:</strong> {{ gender_label }}</p>
+    {% if analysis_results %}
+        <h2>Analysis Results:</h2>
+        <p><strong>Number of Masculine Words:</strong> {{ analysis_results.masculine_words_count }}</p>
+        <p><strong>Number of Feminine Words:</strong> {{ analysis_results.feminine_words_count }}</p>
+        <p><strong>Number of Masculine Pronouns:</strong> {{ analysis_results.masculine_pronouns_count }}</p>
+        <p><strong>Number of Feminine Pronouns:</strong> {{ analysis_results.feminine_pronouns_count }}</p>
     {% endif %}
 </body>
 </html>
