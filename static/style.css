@@ -1,44 +1,65 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 h1 {
-  font-size: 2.5em;
-  color: #4a4a4a;
   text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-textarea {
-  resize: none;
-  width: 100%;
-  font-size: 1em;
+  margin-right: 20px;
 }
 
 button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #EF946C;
+  border: 8px solid #EF946C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  padding: 2px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 15px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 2px;
-  cursor: pointer;
+  color: #FFFFFF;
+
+  padding: 2px;
+  margin-top: 10px;
 }
 
-p {
-  font-size: 1.2em;
-  color: #333;
+.input-container {
+  padding: 40px; 
+}
+
+.result-container {
+  background-color: #242B3C;
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  min-width: 300px;
+}
+
+.result-title {
+  text-align: center;
+}
+
+.result-box {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 .error-message {
