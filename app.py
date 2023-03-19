@@ -57,9 +57,9 @@ def find_gendered_words(tokens, word_list):
     return [token for token in tokens if token in word_list]
 
 
-def analyze_gendered_words(cleaned_text):
+def analyze_gendered_words(input_text):
     
-    cleaned_text = clean_text(cleaned_text)  
+    cleaned_text = clean_text(input_text)  
     tokens = tokenize_text(cleaned_text)     
     stemmed_tokens = stem_words(tokens)
 
@@ -82,7 +82,8 @@ def analyze_gendered_words(cleaned_text):
 
 #step 5  
 
-def label_gender(cleaned_text):
+def label_gender(input_text):
+    cleaned_text = clean_text(input_text)  
     tokens = tokenize_text(cleaned_text)
     stemmed_tokens = stem_words(tokens)
 
@@ -105,14 +106,12 @@ def label_gender(cleaned_text):
 
 def process_input_text(input_text):
     if not isinstance(input_text, str):
-        input_text = str(input_text)
+        return {'feminine_words_count': 0, 'masculine_words_count': 0, 'feminine_pronouns_count': 0, 'masculine_pronouns_count': 0, 'feminine_pronouns': [], 'masculine_pronouns': [], 'feminine_words': [], 'masculine_words': []}
     if not input_text.strip():
-        return {'cleaned_text': '', 'feminine_words_count': 0, 'masculine_words_count': 0, 'feminine_pronouns_count': 0, 'masculine_pronouns_count': 0, 'feminine_pronouns': [], 'masculine_pronouns': [], 'feminine_words': [], 'masculine_words': []}
-    cleaned_text = clean_text(input_text)
-    analysis_results = analyze_gendered_words(cleaned_text)
-    gender_label = label_gender(cleaned_text)
-    analysis_results['cleaned_text'] = cleaned_text 
-    return {'input_text': input_text, 'processed_text': cleaned_text, 'gender_label': gender_label, 'analysis_results': analysis_results}
+        return {'feminine_words_count': 0, 'masculine_words_count': 0, 'feminine_pronouns_count': 0, 'masculine_pronouns_count': 0, 'feminine_pronouns': [], 'masculine_pronouns': [], 'feminine_words': [], 'masculine_words': []}
+    analysis_results = analyze_gendered_words(input_text)
+    gender_label = label_gender(input_text)
+    return {'input_text': input_text, 'gender_label': gender_label, 'analysis_results': analysis_results}
 
 
 
@@ -121,12 +120,18 @@ def index():
     processed_text = ''
     if request.method == 'POST':
         input_text = request.form['input_text']
-        cleaned_text = clean_text(input_text)
+        if not input_text.strip():
+            error_message = "Please enter some text."
+            return render_template('index.html', error_message=error_message)
+        if request.content_type != 'text/plain':
+            error_message = "Invalid input type. Please enter text."
+            return render_template('index.html', error_message=error_message)
         analysis_results = process_input_text(input_text)
         gender_label = label_gender(input_text)
-        processed_text = analysis_results.get('cleaned_text', '')
         return render_template('index.html', input_text=input_text, processed_text=processed_text, gender_label=gender_label, analysis_results=analysis_results)
     return render_template('index.html', processed_text=processed_text)
+
+
 
 
 
