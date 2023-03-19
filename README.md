@@ -31,10 +31,20 @@ The project consists of the following files and directories:
 
 ### Sample Text
 1. Great design challenges more than just the eyes. It challenges the future. We designed the RDX to challenge not just the future of SUVs, but also the future of Acura. The future starts now. The future is the Acura RDX. Acura. Everything we ever imagined. And then some
+
 2. Your brain has 2 sides. The right side: creative, buys things, has fun. The left side: organized, practical, saves money.Now JC Penney makes both sides happy. It’s the buy more, save more sale. It’s simple, the more you buy, the more you save. 20 to 30%. So use your head. Buy more. Save more. Only at JC Penney. 
+
+
 3. New Disney Princess Pop-Up Magic games! Once upon a time…not far away…three games popped up where the Disney Princesses played! With a spin to the castle they came, and won this pop-up magic game! New Disney Princess Pop-Up Magic Castle Games. Cinderella’s Coach and Tangled Tower Games each sold separately. And now… The journey continues at your local Stride Rite store! Purchase a pair of Stride Rite Disney Princess shoes and get a free Cinderella’s Coach game! While supplies last. But don’t wait until the midnight hour! This deal is only from February 21st to the 23rd! Locations may vary. 
 
 ## Visuals
+Figma Design: https://www.figma.com/file/CFgpSXnYsACsEIrXOMxgOz/User-interface
+
+
+Figma Clickable Prototype: https://www.figma.com/proto/CFgpSXnYsACsEIrXOMxgOz/User-interface?node-id=10-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=10%3A2
+
+Video of tool in use: https://youtu.be/2v_SaQiH0wE
+
 
 
 
