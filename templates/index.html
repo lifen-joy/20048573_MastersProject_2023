@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gender Word Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Gender Word Detection</h1>
     <form action="/" method="POST" enctype="multipart/form-data">
         <label for="input_text">Paste or type your text:</label>
-        <textarea id="input_text" name="input_text" rows="15" cols="80"></textarea>
+        <textarea id="input_text" name="input_text" rows="15" cols="80">{{ input_text if input_text }}</textarea>
         <button type="submit">Check Text</button>
     </form>
     {% if error_message %}
-      <p>{{ error_message }}</p>
-    {% else %}
+      <p class= "error-message">{{ error_message }}</p>
+      {% else %}
       <h2>Analysis Results:</h2>
-      <p>Number of Masculine Words: {{ analysis_results['masculine_words_count'] }}</p>
-      <p>Number of Feminine Words: {{ analysis_results['feminine_words_count'] }}</p>
+      <p>Masculine Words: {{ analysis_results['masculine_words']|join(', ') }}</p>
+      <p>Feminine Words: {{ analysis_results['feminine_words']|join(', ') }}</p>
       <p>Number of Masculine Pronouns: {{ analysis_results['masculine_pronouns_count'] }}</p>
       <p>Number of Feminine Pronouns: {{ analysis_results['feminine_pronouns_count'] }}</p>
       <h2>Gender Label:</h2>
       <p>{{ gender_label }}</p>
-    {% endif %}
+    {% endif %}    
 </body>
 </html>

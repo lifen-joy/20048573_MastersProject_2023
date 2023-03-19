@@ -38,9 +38,9 @@ def tokenize_text(cleaned_text):
 
 
 #Step 3
-def stem_words(cleaned_text):
+def stem_words(tokens):
     stemmer = PorterStemmer()
-    stemmed_words = [stemmer.stem(word) for word in cleaned_text]
+    stemmed_words = [stemmer.stem(word) for word in tokens]
     return stemmed_words
 
 
@@ -108,34 +108,26 @@ def process_input_text(input_text):
     if not isinstance(input_text, str):
         return {'feminine_words_count': 0, 'masculine_words_count': 0, 'feminine_pronouns_count': 0, 'masculine_pronouns_count': 0, 'feminine_pronouns': [], 'masculine_pronouns': [], 'feminine_words': [], 'masculine_words': []}
     analysis_results = analyze_gendered_words(input_text)
-    gender_label = label_gender(input_text)
-    return {'input_text': input_text, 'gender_label': gender_label, 'analysis_results': analysis_results}
+    return analysis_results
 
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    processed_text = ''
-    error_message = ''
-    analysis_results = {}
-    
     if request.method == 'POST':
         input_text = request.form['input_text']
-        
-        # Handle empty input text
-        if not input_text.strip():
-            error_message = "Please enter some text."
-        # Handle non-textual input
-        elif request.content_type != 'text/plain':
-            error_message = "Invalid input type. Please enter text."
-        else:
-            analysis_results = analyze_gendered_words(input_text)
-            gender_label = label_gender(input_text)
-            processed_text = process_input_text(input_text)
-            return render_template('index.html', input_text=input_text, processed_text=processed_text, gender_label=gender_label, analysis_results=analysis_results, error_message=error_message)
-
-    return render_template('index.html', processed_text=processed_text, error_message=error_message)
-
+        analysis_results = process_input_text(input_text)
+        gender_label = label_gender(input_text)
+        return render_template('index.html', input_text=input_text, gender_label=gender_label, analysis_results=analysis_results)
+    
+    default_analysis_results = {
+        'feminine_words': [],
+        'masculine_words': [],
+        'feminine_pronouns_count': 0,
+        'masculine_pronouns_count': 0
+    }
+    default_gender_label = 'Neutral'
+    return render_template('index.html', gender_label=default_gender_label, analysis_results=default_analysis_results)
 
 
 
