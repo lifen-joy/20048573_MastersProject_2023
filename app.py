@@ -16,6 +16,8 @@ gendered_pronouns = {'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herse
 stop_words = stop_words.difference(gendered_pronouns)
    
 def clean_text(input_text):
+    if not isinstance(input_text, str):
+        input_text = str(input_text)
     
     cleaned_text = re.sub(r"[^a-zA-Z'\s]", " ", input_text)
     cleaned_text = cleaned_text.lower()
@@ -102,16 +104,16 @@ def label_gender(cleaned_text):
 #Step 6
 
 def process_input_text(input_text):
-    if not input_text.strip():  # Check if input is empty or only whitespace
+    if not isinstance(input_text, str):
+        input_text = str(input_text)
+    if not input_text.strip():
         return {'cleaned_text': '', 'feminine_words_count': 0, 'masculine_words_count': 0, 'feminine_pronouns_count': 0, 'masculine_pronouns_count': 0, 'feminine_pronouns': [], 'masculine_pronouns': [], 'feminine_words': [], 'masculine_words': []}
-
     cleaned_text = clean_text(input_text)
-    tokenized_text = tokenize_text(cleaned_text)
-    stemmed_text = stem_words(tokenized_text)
-    analysis_results = analyze_gendered_words(stemmed_text)
+    analysis_results = analyze_gendered_words(cleaned_text)
+    gender_label = label_gender(cleaned_text)
     analysis_results['cleaned_text'] = cleaned_text
+    return {'input_text': input_text, 'processed_text': cleaned_text, 'gender_label': gender_label, 'analysis_results': analysis_results}
 
-    return analysis_results
 
 
 @app.route('/', methods=['GET', 'POST'])
