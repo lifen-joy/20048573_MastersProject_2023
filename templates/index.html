@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>Gender Word Detection</h1>
-    <form action="/process" method="POST">
-        <label for="text_input">Paste or type your text:</label>
-        <textarea id="text_input" name="input_text" rows="15" cols="80"></textarea>
+    <form action="/" method="POST">
+        <label for="input_text">Paste or type your text:</label>
+        <textarea id="input_text" name="input_text" rows="15" cols="80"></textarea>
         <button type="submit">Check Text</button>
     </form>
     {% if analysis_results %}
@@ -19,6 +19,10 @@
         <p><strong>Number of Feminine Words:</strong> {{ analysis_results.feminine_words_count }}</p>
         <p><strong>Number of Masculine Pronouns:</strong> {{ analysis_results.masculine_pronouns_count }}</p>
         <p><strong>Number of Feminine Pronouns:</strong> {{ analysis_results.feminine_pronouns_count }}</p>
+    {% endif %}
+    {% if gender_label %}
+        <h2>Gender Label:</h2>
+        <p><strong>{{ gender_label }}</strong></p>
     {% endif %}
 </body>
 </html>
