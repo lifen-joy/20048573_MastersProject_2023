@@ -111,21 +111,24 @@ def process_input_text(input_text):
     cleaned_text = clean_text(input_text)
     analysis_results = analyze_gendered_words(cleaned_text)
     gender_label = label_gender(cleaned_text)
-    analysis_results['cleaned_text'] = cleaned_text
+    analysis_results['cleaned_text'] = cleaned_text 
     return {'input_text': input_text, 'processed_text': cleaned_text, 'gender_label': gender_label, 'analysis_results': analysis_results}
 
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    processed_text = ''
     if request.method == 'POST':
         input_text = request.form['input_text']
         cleaned_text = clean_text(input_text)
         analysis_results = process_input_text(input_text)
         gender_label = label_gender(input_text)
-        processed_text = analysis_results['cleaned_text']
+        processed_text = analysis_results.get('cleaned_text', '')
         return render_template('index.html', input_text=input_text, processed_text=processed_text, gender_label=gender_label, analysis_results=analysis_results)
-    return render_template('index.html')
+    return render_template('index.html', processed_text=processed_text)
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
